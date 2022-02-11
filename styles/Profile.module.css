@@ -1,0 +1,57 @@
+
+.wrapper {
+  display: grid;
+  grid-template-columns: minmax(150px, 25%) 1fr;
+}
+  .main {
+    background: var(--white-100);
+    font-size: 1rem;
+  }
+  
+  .intro {
+    padding: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .ranking {
+    display: grid;
+    place-items: center;
+    padding-bottom: 1rem;
+  }
+  .sidebar {
+    background: var(--blue-100);
+    font-size: 1rem;
+  }
+  .listElement:hover,
+  .listElement:focus,
+  .listElement:active {
+    background-color: var(--blue-400);
+    text-decoration-line: underline;
+
+  }
+  .listElement , .poolList {
+    padding-left: 1.5rem;
+    transition:ease-in-out 0.5s;
+  }
+  .selected {
+    background: var(--blue-300);
+    font-weight: 600;
+    padding-left: 1.7rem;
+  }
+  .poolList:hover,
+  .poolList:focus,
+  .poolList:active {
+    background-color: var(--blue-400);
+    text-decoration-line: underline;
+
+  }
+  .sidebar div h4 {
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+  }
+  .card {
+    display: flex;
+    align-items: flex-start;
+    background: white;
+    border-radius: 0.5rem;
+  }

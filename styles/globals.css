@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+    --blue-100: rgb(193, 243, 250);
+    --blue-200: rgb(182, 221, 236);
+    --blue-300: rgb(105, 200, 238);
+    --blue-400: rgb(116, 211, 248);
+    --blue-600: rgb(80, 129, 233);
+    --white-100: #eee;
+
+    
+}
+hr {
+    border:1px dotted var(--blue-300)
+}
