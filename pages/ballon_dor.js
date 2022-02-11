@@ -34,7 +34,7 @@ export default function Ballon() {
       return {
         id: i + 1,
         name: player,
-        url: `./${player.toLowerCase()}.jpg`,
+        url: `/${player.toLowerCase()}.jpg`,
         score: score
       };
     });
