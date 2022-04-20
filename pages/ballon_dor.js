@@ -29,7 +29,6 @@ export default function Ballon() {
   if(!data) return (<h2>Loading...</h2>)
   function result(method = "approval", pool = "total", data) {
     let raw = data[pool][method] || [];
-    console.log(typeof raw, {raw: raw});
     return Object.entries(raw).map(([player, score ], i) => {
       return {
         id: i + 1,
@@ -40,7 +39,6 @@ export default function Ballon() {
     });
   }
   const resultData = result(method, pool, data);
-  console.log(resultData, resultData.map(e => e.score));
     return (
       <main className={styles.wrapper}>
         <div className={styles.sidebar}>
