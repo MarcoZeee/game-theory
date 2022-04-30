@@ -1,4 +1,5 @@
-**Voting in game thoery**
+<h1 align="center">Voting in game thoery</h1>
+<hr />
 
 **Why built this project?**
 
@@ -8,7 +9,7 @@ Those methods include popularity, tideman, runoff etc.
 
 **How can I host lcoally?**
 
-clone the repo to your machine, then 
+clone the repo to your local machine, then 
 
 ```
 yarn start
