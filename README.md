@@ -1,4 +1,4 @@
-<h1 align="center">Voting in game thoery</h1>
+<h1 align="center">Voting in game theory</h1>
 <hr />
 
 **Why built this project?**
