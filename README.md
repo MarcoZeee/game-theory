@@ -1,5 +1,4 @@
 <h1 align="center">Voting in game theory</h1>
-<hr />
 
 **Why built this project?**
 
@@ -15,4 +14,7 @@ clone the repo to your local machine, then
 yarn start
 ```
 
+**TODO and future plan**
+
+- regional pool data for each voting method
 
