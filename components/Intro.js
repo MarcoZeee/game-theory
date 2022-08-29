@@ -1,5 +1,4 @@
 import styles from "../styles/Profile.module.css"
-import useSWR from "swr";
 
 const data = {
   approval: "Approval method basically counts the one candidate with the most votes, regradless of the ranking.",

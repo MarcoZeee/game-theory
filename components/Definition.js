@@ -1,23 +1,25 @@
-import styles from "../styles/Home.module.css"
+import styles from "../styles/Home.module.css";
+import { beautify } from "./utilities";
 
-
-export default function Definition({def}) {
-  const beautify = (str) => (str[0].toUpperCase() + str.slice(1)).replaceAll("_", " ");
-    const list = Object.entries(def).sort((a, b)=> a[0].localeCompare(b[0])).map(([word, meaning])=> {
-      return( 
+export default function Definition({ def }) {
+  const list = Object.entries(def)
+    .sort((a, b) => a[0].localeCompare(b[0]))
+    .map(([word, meaning]) => {
+      return (
         <>
           <li>
-            <strong>{beautify(word)}: <br /> </strong> {meaning}
+            <strong>
+              {beautify(word)}: <br />{" "}
+            </strong>{" "}
+            {meaning}
           </li>
-      <br />
+          <br />
         </>
-      )
-    })
-    return (
-      <div>
-        <ul className={styles.def}>
-          {list}
-        </ul>
-      </div>
-    )
-  }
+      );
+    });
+  return (
+    <div>
+      <ul className={styles.def}>{list}</ul>
+    </div>
+  );
+}

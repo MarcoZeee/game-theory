@@ -1,8 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-
 :root {
     --blue-100: rgb(193, 243, 250);
     --blue-200: rgb(182, 221, 236);
@@ -16,3 +11,15 @@
 hr {
     border:1px dotted var(--blue-300)
 }
+
+.footer {
+    width: 100%;
+    height: 1rem;
+    border-top: 1px solid #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #212121;
+    color: #eaeaea;
+    padding: 1rem;
+  }

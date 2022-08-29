@@ -1,6 +1,6 @@
 import styles from "../styles/Home.module.css"
 import Nav from "./Nav"
-import Footer from './Footer'
+import Footer from './Footer.tsx'
 
 export default function Layout({children}) {
     return (
